@@ -117,3 +117,11 @@ You can configure Visual Studio to automatically run code cleanup on save:
 | Remove unnecessary Imports or usings           | Deletes unused `using` directives              |
 
 ---
+
+## 📚 Learn More
+
+For more detailed Swagger usage in ASP.NET, visit:
+
+👉 [Recommended XML tags for C# documentation comments]([https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-8.0&tabs=visual-studio](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags))
+
+---
