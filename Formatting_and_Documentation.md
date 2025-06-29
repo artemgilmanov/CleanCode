@@ -1,5 +1,3 @@
----
-
 # 📄 Code Formatting and Cleanup Guide (Visual Studio)
 
 This guide describes how to configure and use Visual Studio's **Code Cleanup** tool with the most useful rules to maintain clean and consistent C# code.
@@ -8,12 +6,11 @@ This guide describes how to configure and use Visual Studio's **Code Cleanup** t
 
 ## 🔧 Setting Up the Code Cleanup Tool
 
-You can open the **Code Cleanup** tool in two ways:
+You can open the **Code Cleanup** tool as following:
+* By right-clicking on the **Solution** in Solution Explorer and selecting "Analize and Code Cleanup".
+* Configure **Profile 2** with custom cleanup rules, while **Profile 1** remains with default settings.
 
-* From the bottom toolbar of Visual Studio.
-* By right-clicking on the **Solution** in Solution Explorer.
-
-We will configure **Profile 2** with custom cleanup rules, while **Profile 1** remains with default settings.
+To check the description all rules refer to: https://learn.microsoft.com/en-us/visualstudio/ide/code-styles-and-code-cleanup?view=vs-2022&pivots=programming-language-dotnet#code-styles-in-the-options-dialog-box
 
 > 💡 To run Code Cleanup manually using Profile 2, press `Ctrl + K + E`.
 
@@ -120,6 +117,3 @@ You can configure Visual Studio to automatically run code cleanup on save:
 | Remove unnecessary Imports or usings           | Deletes unused `using` directives              |
 
 ---
-
-Let me know if you’d like this in PDF or Markdown format for distribution.
-
